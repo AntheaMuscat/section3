@@ -1,0 +1,17 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="900" rx="64" fill="#FFF6FA"/>
+  <rect x="250" y="210" width="700" height="520" rx="48" fill="#FFFFFF" stroke="#FBCFE8" stroke-width="8"/>
+  <path d="M250 340H950" stroke="#F9A8D4" stroke-width="14"/>
+  <path d="M250 340L320 270H880L950 340" fill="#FDE7F3"/>
+  <rect x="320" y="370" width="180" height="250" rx="28" fill="#FFF1F2"/>
+  <rect x="510" y="370" width="180" height="250" rx="28" fill="#FFE4E6"/>
+  <rect x="700" y="370" width="180" height="250" rx="28" fill="#FEF3C7"/>
+  <circle cx="410" cy="460" r="52" fill="#FDA4AF"/>
+  <circle cx="600" cy="455" r="52" fill="#C4B5FD"/>
+  <circle cx="790" cy="460" r="52" fill="#FCD34D"/>
+  <path d="M390 490C410 460 430 460 450 490" stroke="#FFF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M580 485C600 455 620 455 640 485" stroke="#FFF" stroke-width="12" stroke-linecap="round"/>
+  <path d="M770 490C790 460 810 460 830 490" stroke="#FFF" stroke-width="12" stroke-linecap="round"/>
+  <text x="600" y="805" text-anchor="middle" font-family="Arial, sans-serif" font-size="56" font-weight="700" fill="#BE185D">Sugar & Swirl Bakery</text>
+  <text x="600" y="856" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#DB2777">Fresh bakes, pastel treats, and cozy smiles</text>
+</svg>

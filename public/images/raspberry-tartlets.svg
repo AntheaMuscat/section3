@@ -1,0 +1,12 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" rx="48" fill="#FFF6FB"/>
+  <g>
+    <path d="M260 420L320 300H420L460 420Z" fill="#FFD7E8"/>
+    <path d="M380 420L440 300H540L580 420Z" fill="#FFD7E8"/>
+    <path d="M500 420L560 300H660L700 420Z" fill="#FFD7E8"/>
+    <circle cx="330" cy="335" r="42" fill="#FF6588"/>
+    <circle cx="450" cy="335" r="42" fill="#FF6588"/>
+    <circle cx="570" cy="335" r="42" fill="#FF6588"/>
+  </g>
+  <text x="450" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#CC4D72">Raspberry Tartlets</text>
+</svg>

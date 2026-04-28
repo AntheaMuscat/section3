@@ -1,0 +1,8 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" rx="48" fill="#FFF7F2"/>
+  <path d="M330 220H570L540 500C535 540 505 570 465 570H435C395 570 365 540 360 500L330 220Z" fill="#F5B8A5"/>
+  <path d="M355 250H545L522 488C520 512 500 530 476 530H424C400 530 380 512 378 488L355 250Z" fill="#FFD6C9"/>
+  <path d="M600 300C650 310 680 350 670 390C660 440 610 450 570 430" stroke="#F5B8A5" stroke-width="28" stroke-linecap="round"/>
+  <rect x="320" y="560" width="300" height="30" rx="15" fill="#F1A98F"/>
+  <text x="450" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#D97E65">Peach Tea Latte</text>
+</svg>

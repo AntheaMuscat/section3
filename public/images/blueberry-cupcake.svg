@@ -1,0 +1,11 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" rx="48" fill="#F4FBFF"/>
+  <path d="M300 410C300 340 360 300 450 300C540 300 600 340 600 410C600 500 540 560 450 560C360 560 300 500 300 410Z" fill="#A9D8FF"/>
+  <path d="M320 390C350 330 390 300 450 300C510 300 550 330 580 390C550 370 510 365 450 380C390 365 350 370 320 390Z" fill="#FFFFFF"/>
+  <rect x="340" y="430" width="220" height="110" rx="28" fill="#7BB9FF"/>
+  <path d="M350 438H550" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="395" cy="350" r="14" fill="#8E5CF6"/>
+  <circle cx="450" cy="335" r="14" fill="#8E5CF6"/>
+  <circle cx="505" cy="350" r="14" fill="#8E5CF6"/>
+  <text x="450" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#4B74B3">Blueberry Sky Cupcakes</text>
+</svg>

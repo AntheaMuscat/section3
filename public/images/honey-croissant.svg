@@ -1,0 +1,8 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" rx="48" fill="#FFF8EA"/>
+  <path d="M210 380C250 250 370 210 470 250C590 150 740 220 720 370C700 500 540 540 450 500C340 560 190 500 210 380Z" fill="#FFCC77"/>
+  <path d="M280 360C330 300 400 290 450 320C510 280 610 290 650 360" stroke="#FFF4D5" stroke-width="28" stroke-linecap="round"/>
+  <path d="M260 400C330 460 420 470 480 430C560 470 640 460 690 400" stroke="#F4A14A" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="435" cy="375" r="30" fill="#FFE8AF"/>
+  <text x="450" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#C77719">Honey Butter Croissant</text>
+</svg>

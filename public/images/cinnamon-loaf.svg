@@ -1,0 +1,8 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="700" rx="48" fill="#FFF9F5"/>
+  <rect x="170" y="250" width="560" height="260" rx="70" fill="#D79B63"/>
+  <path d="M230 320C280 280 330 280 380 320C430 360 480 360 530 320C580 280 630 280 680 320" stroke="#FFF0E2" stroke-width="26" stroke-linecap="round"/>
+  <path d="M230 395C280 355 330 355 380 395C430 435 480 435 530 395C580 355 630 355 680 395" stroke="#FFF0E2" stroke-width="26" stroke-linecap="round"/>
+  <rect x="220" y="220" width="460" height="40" rx="20" fill="#F6C59E"/>
+  <text x="450" y="610" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#A46A3E">Cinnamon Swirl Loaf</text>
+</svg>

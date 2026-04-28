@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { StoreFooter } from "@/components/store-footer";
+import { StoreHeader } from "@/components/store-header";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Nova Market | Optimised Ecommerce Demo",
-  description: "A responsive Next.js and Tailwind CSS ecommerce demo with filters, cart state, and strong visual feedback.",
+  title: "Sugar & Swirl Bakery",
+  description: "A cute multi-page bakery site with pastel styling, product images, and a lively menu.",
 };
 
 export default function RootLayout({
@@ -27,7 +29,11 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col bg-[#fff8fb] text-rose-950">
+        <StoreHeader />
+        <div className="flex-1">{children}</div>
+        <StoreFooter />
+      </body>
     </html>
   );
 }
