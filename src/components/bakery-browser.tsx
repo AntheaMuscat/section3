@@ -1,3 +1,4 @@
+
 "use client";
 
 import Image from "next/image";
@@ -83,14 +84,10 @@ export function BakeryBrowser() {
   };
 
   useEffect(() => {
-    if (!basketOpen) {
-      return;
-    }
+    if (!basketOpen) return;
 
     const handleKeyDown = (event: KeyboardEvent) => {
-      if (event.key === "Escape") {
-        setBasketOpen(false);
-      }
+      if (event.key === "Escape") setBasketOpen(false);
     };
 
     document.body.style.overflow = "hidden";
@@ -101,6 +98,33 @@ export function BakeryBrowser() {
       window.removeEventListener("keydown", handleKeyDown);
     };
   }, [basketOpen]);
+
+  // Open basket via #cart or custom event
+  useEffect(() => {
+    const tryOpenFromHash = () => {
+      try {
+        if (window.location.hash === "#cart") setBasketOpen(true);
+      } catch {}
+    };
+
+    const onCustomOpen = () => setBasketOpen(true);
+
+    tryOpenFromHash();
+    window.addEventListener("hashchange", tryOpenFromHash);
+    window.addEventListener("open-bakery-basket", onCustomOpen as EventListener);
+
+    return () => {
+      window.removeEventListener("hashchange", tryOpenFromHash);
+      window.removeEventListener("open-bakery-basket", onCustomOpen as EventListener);
+    };
+  }, []);
+
+  const closeBasket = () => {
+    setBasketOpen(false);
+    try {
+      history.replaceState(null, "", window.location.pathname + window.location.search);
+    } catch {}
+  };
 
   return (
     <div className="space-y-6">
@@ -278,7 +302,7 @@ export function BakeryBrowser() {
           <button
             type="button"
             aria-label="Close basket"
-            onClick={() => setBasketOpen(false)}
+            onClick={closeBasket}
             className="absolute inset-0 cursor-default"
           />
           <aside
@@ -297,7 +321,7 @@ export function BakeryBrowser() {
               </div>
               <button
                 type="button"
-                onClick={() => setBasketOpen(false)}
+                onClick={closeBasket}
                 className="rounded-full border border-rose-200 bg-white px-3 py-2 text-rose-500"
               >
                 ✕
@@ -365,6 +389,7 @@ export function BakeryBrowser() {
           </aside>
         </div>
       )}
+
     </div>
   );
 }

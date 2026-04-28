@@ -34,12 +34,24 @@ export function StoreHeader() {
           ))}
         </nav>
 
-        <a
-          href="/menu"
-          className="rounded-full bg-gradient-to-r from-rose-300 to-pink-300 px-5 py-3 text-sm font-semibold text-rose-950 transition hover:scale-[1.02]"
-        >
-          Order treats
-        </a>
+        <div className="flex items-center gap-3">
+          <a
+            href="#cart"
+            aria-label="Open cart"
+            className="items-center gap-2 rounded-full border border-rose-200 bg-white px-3 py-2 text-sm font-medium text-rose-600 transition hover:bg-rose-50"
+          >
+            <span className="text-lg">🧺</span>
+            <span className="sr-only">Open cart</span>
+            <span className="ml-1 text-rose-700">Cart</span>
+          </a>
+
+          <a
+            href="/menu"
+            className="rounded-full bg-gradient-to-r from-rose-300 to-pink-300 px-5 py-3 text-sm font-semibold text-rose-950 transition hover:scale-[1.02]"
+          >
+            Order treats
+          </a>
+        </div>
       </div>
     </header>
   );
